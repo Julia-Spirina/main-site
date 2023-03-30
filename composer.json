@@ -1,0 +1,25 @@
+{
+    "name": "juliaspirina/demo-oop",
+    "description": "description",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julia Spirina",
+            "email": "julia.spirina.04@bk.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+
+
+}
