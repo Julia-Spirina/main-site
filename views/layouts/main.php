@@ -8,7 +8,7 @@
     <title>Main site</title>
 </head>
 <body>
-<div></div>
+
 <div>
     <?= $content ?? ''; ?>
 </div>
