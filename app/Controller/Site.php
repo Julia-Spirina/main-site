@@ -2,7 +2,6 @@
 
 namespace Controller;
 
-
 use Model\Post;
 use Src\View;
 
@@ -19,4 +18,3 @@ class Site
         return new View('site.hello', ['message' => 'hello working']);
     }
 }
-
